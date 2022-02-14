@@ -84,7 +84,7 @@ ppUr = await zero.getProfilePicture(anu_user)
 ppUrl = 'https://telegra.ph/file/c9dfa715c26518201f478.jpg'
 }
 img = await getBuffer(ppUrl)
-teks = `*Hallo @${anu_user}*`
+teks = `*Hii @${anu_user}*\n*Jangan Lupa Intro!*`
 sendButImage(anu.jid, teks, `© - GiiXyz`, img,but = [{buttonId:`hallo`, 
 buttonText:{displayText: 'Wellcome!'},type:1}], options = {contextInfo: {mentionedJid: [num, number]},thumbnail: Buffer.alloc(0)})
 } else if (anu.action == 'remove') {
